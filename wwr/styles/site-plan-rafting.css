@@ -6,25 +6,25 @@ Fonts are separated by a & */
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #009FB7   ;
-  --secondary-color: #EB4511 ;
-  --accent1-color: #FED766;
-  --accent2-color: white;
+  --primary-color: #4D7EA8   ;
+  --secondary-color: #272932 ;
+  --accent1-color: #FFEDB8;
+  --accent2-color: #F0F4EF;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "Goblin One";
   --paragraph-font: "M Plus Rounded 1c";
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #009FB7;  /* headlines on a white background */ 
-  --headline-color-on-color: white; /* headlines on a colored background */ 
-  --paragraph-color-on-white: #009FB7; /* paragraph text on a white background */ 
-  --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #009FB7  ;
-  --nav-link-color: #FED766;
-  --nav-background-color: #2C497F;
-  --nav-hover-link-color: white;
-  --nav-hover-background-color: #2C497F;
+  --headline-color-on-white: #4D7EA8;  /* headlines on a white background */ 
+  --headline-color-on-color: #F0F4EF; /* headlines on a colored background */ 
+  --paragraph-color-on-white: #4D7EA8; /* paragraph text on a white background */ 
+  --paragraph-color-on-color: #F0F4EF; /* paragraph text on a colored background */ 
+  --paragraph-background-color: #4D7EA8  ;
+  --nav-link-color: #FFEDB8;
+  --nav-background-color: #272932;
+  --nav-hover-link-color: #F0F4EF;
+  --nav-hover-background-color: #272932;
 }
 
 
