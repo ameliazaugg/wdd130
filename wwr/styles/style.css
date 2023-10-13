@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Goblin+One|M+PLUS+Rounded+1c');
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -8,6 +10,7 @@ nav a {
     text-align: center;
     color: #4D7EA8;
     text-decoration: none;
+    padding: 35px;
 }
 
 #hero-msg h1, #hero-msg h4 {
@@ -16,10 +19,18 @@ nav a {
 
 .logo {
     width: 80px;
+    padding-top: 5px;
+}
+
+#logo_link {
+    padding-top: 5px;
 }
 
 .home-title {
     color: #4D7EA8;
+    font-family: "Goblin One", "Georgia", "Garamond";
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 h4 {
@@ -35,6 +46,10 @@ main section {
     text-align: center;
 }
 
+main section img {
+    box-sizing: border-box;
+}
+
 #background {
     height: 725px;
     background-color: #F0F4EF;
@@ -43,6 +58,10 @@ main section {
 
 body {
     background-color:rgba(248, 255, 202, 0.15);
+    font-family: "M Plus Rounded 1c", "Trebuchet MS", "Tahoma";
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 
 header{
@@ -62,6 +81,10 @@ nav a:hover {
     background-color: #F0F4EF;
     color: #4D7EA8;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top:  50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover {
@@ -75,20 +98,35 @@ nav a:hover {
 
 .msg{
     background-color: #F0F4EF;
+    line-height: 1.5em;
+    padding: 35px
 }
 
 .msg h2 {
     color: #4D7EA8;
+    font-family: 'Goblin-One';
+    margin: 0;
 }
 
 msg p {
     color: #4D7EA8;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 footer{
     background-color: #272932;
     color: #4D7EA8;
     font-size: 1.3em;
+    padding: 25px 50px
+}
+
+footer .social img {
+    padding-top: 15px
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin:200px 0
 }
 
 footer a{
@@ -107,8 +145,13 @@ footer p a:hover{
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
-#hero-img{
+#hero-img {
     width: 100%;
+}
+
+.card-img {
+    border: 10px solid #272932
 }
