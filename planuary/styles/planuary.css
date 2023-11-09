@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@200&family=Schoolbell&display=swap');
+/*
+a:link {
+    color: rgb(0, 255, 170);
+}
+
+a:visited {
+    color: rgb(0, 101, 67);
+}
+
+*/
+
+* {
+    background-color: #ffa69a;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+header {
+    padding: 5%;
+    text-align: center;
+}
+
+#title {
+    background-color: #ff8479;
+    padding: 5%;
+    color: #2D2D2A;
+    font-family: "Schoolbell";
+    font-size: 60px;
+}
+
+nav a {
+    font-size: xx-large;
+    font-family: "Schoolbell";
+    text-align: center;
+    color: #fdfae7;
+    text-decoration: none;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+nav a:hover {
+    background-color: #fcbcb8;
+}
+
+.introduction {
+    font-family: "Playpen Sans";
+    color: #2D2D2A;
+    font-weight: 1000;
+    text-indent: 7%;
+}
+
+footer {
+    text-align: center;
+    padding-top: 5%;
+    font-family: "Schoolbell";
+    color: #2D2D2A;
+    font-weight: 550;
+    font-size: smaller;
+}
