@@ -93,7 +93,7 @@ body {
     padding: 0;
 }
 
-header{
+header {
     background-color: #F0F4EF;
     display: grid;
     grid-template-columns: 150px auto;
@@ -226,7 +226,56 @@ card-img:hover {
     box-shadow: 5px 5px 10px #272932;
 }
 
+/* SUBPAGE CSS ---------------------------------- */
 
+.faq_title {
+    padding-top: 3%;
+    padding-bottom: 3%;
+    color: #4D7EA8;
+    text-align: center;
+    font-family: "Goblin One", "Georgia", "Garamond";
+}
+
+.faq_body {
+    display: grid;
+}
+
+.faq_images {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+faq_1 {
+    width: auto;
+}
+
+faq_2 {
+    width: auto;
+}
+
+faq_3 {
+    width: auto;
+}
+
+.question_text {
+    font-family: "Goblin One", "Georgia", "Garamond";
+    text-align: center;
+    width: 100%;
+    padding-top: 10px;
+    font-size: xx-large;
+}
+
+.answer_text {
+    font-family: "M PLUS Rounded 1c";
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+/* MEDIA QUERIES -------------------------------- */
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
