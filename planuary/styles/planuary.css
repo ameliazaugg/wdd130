@@ -73,3 +73,30 @@ footer {
     padding-top: 5px;
     padding-bottom: 5px;
 }
+
+#tips-and-tricks-main {
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+#tips-and-tricks {
+    font-family: "Playpen Sans";
+    color: #2D2D2A;
+    font-weight: 1000;
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-bottom: 4%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#external-links {
+    font-family: "Playpen Sans";
+    color: #2D2D2A;
+    font-weight: 1000;
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-bottom: 4%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
