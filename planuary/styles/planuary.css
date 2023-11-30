@@ -35,10 +35,9 @@ nav a {
     text-align: center;
     color: #fdfae7;
     text-decoration: none;
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-top: 1%;
-    padding-bottom: 1%;
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-bottom: 5px;
 }
 
 nav a:hover {
@@ -86,7 +85,7 @@ footer {
     margin-left: 7%;
     margin-right: 7%;
     margin-bottom: 4%;
-    padding-top: 5px;
+    padding-top: 2px;
     padding-bottom: 5px;
 }
 
@@ -99,4 +98,18 @@ footer {
     margin-bottom: 4%;
     padding-top: 5px;
     padding-bottom: 5px;
+}
+
+#link {
+    display: grid;
+    margin: 0 auto;
+    color: #fdfae7;
+    background-color: #ff8479;
+    text-align: center;
+}
+
+#title-banner {
+    display: grid;
+    margin: 0 auto;
+    
 }
