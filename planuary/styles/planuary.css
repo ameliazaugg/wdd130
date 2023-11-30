@@ -61,3 +61,15 @@ footer {
     font-size: smaller;
     width: 100%;
 }
+
+.prompt {
+    font-family: "Playpen Sans";
+    color: #2D2D2A;
+    font-weight: 1000;
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-bottom: 4%;
+    background-color: #ff8479;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
