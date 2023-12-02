@@ -21,6 +21,12 @@ header {
     text-align: center;
 }
 
+#home-image {
+    margin: 0 auto;
+    text-align: center;
+}
+
+
 #title {
     background-color: #ff8479;
     padding: 5%;
@@ -65,8 +71,8 @@ footer {
     font-family: "Playpen Sans";
     color: #2D2D2A;
     font-weight: 1000;
-    margin-left: 7%;
-    margin-right: 7%;
+    margin-left: 15%;
+    margin-right: 15%;
     margin-bottom: 4%;
     background-color: #ff8479;
     padding-top: 5px;
@@ -79,6 +85,7 @@ footer {
 }
 
 #tips-and-tricks {
+    grid-template-columns: 60%;
     font-family: "Playpen Sans";
     color: #2D2D2A;
     font-weight: 1000;
@@ -90,26 +97,15 @@ footer {
 }
 
 #external-links {
+    padding-left: 50%;
+    display: grid;
+    text-align: center;
     font-family: "Playpen Sans";
     color: #2D2D2A;
     font-weight: 1000;
-    margin-left: 7%;
-    margin-right: 7%;
-    margin-bottom: 4%;
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
-
-#link {
-    display: grid;
-    margin: 0 auto;
-    color: #fdfae7;
-    background-color: #ff8479;
-    text-align: center;
 }
 
 #title-banner {
     display: grid;
     margin: 0 auto;
-    
 }
